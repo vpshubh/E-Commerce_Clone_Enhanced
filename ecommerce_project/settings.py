@@ -199,3 +199,4 @@ CORS_ALLOW_ALL_ORIGINS = True  # For development - restrict in production
 
 # Custom user model - if needed
 # AUTH_USER_MODEL = 'users.CustomUser'
+AUTH_USER_MODEL = 'users.CustomUser'

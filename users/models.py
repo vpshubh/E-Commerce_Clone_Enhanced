@@ -8,8 +8,7 @@ class CustomUser(AbstractUser):
     
     def __str__(self):
         return self.username
-
-
+    pass
 class UserProfile(models.Model):
     user = models.OneToOneField(CustomUser, on_delete=models.CASCADE, related_name='profile')
     profile_pic = models.ImageField(upload_to='profile_pics/', blank=True, null=True)
